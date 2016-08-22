@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">"
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="20dp"
+     android:orientation="horizontal"
+     >
+     
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/str_det"/>
+ </LinearLayout>
+ <HorizontalScrollView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"> 
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tbl_pending">
+
+    <TextView
+        android:id="@+id/tv_bal_tot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tot_bal"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        />
+
+    <TextView
+        android:id="@+id/tv_paid_tot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/paid_tot"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/tv_bill_tot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/bill_tot"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+</TableLayout>
+</HorizontalScrollView>
+</LinearLayout>
+</ScrollView>

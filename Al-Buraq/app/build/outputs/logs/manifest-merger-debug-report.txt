@@ -1,0 +1,163 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:2:1-101:12
+	package
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:6:22-78
+uses-sdk
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+		INJECTED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml
+application
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:11:5-99:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:14:9-34
+	android:allowBackup
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:13:9-36
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.alburaq.simled.Login
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:17:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:22:27-74
+activity#com.alburaq.simled.Panel
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:25:9-29:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:28:13-38
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:26:13-52
+activity#com.alburaq.simled.Party
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:30:10-34:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:33:13-47
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:32:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:31:13-52
+activity#com.alburaq.simled.UpdatePass
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:36:9-40:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:39:13-44
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:37:13-57
+activity#com.alburaq.simled.Admin_ctrl
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:42:9-46:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:45:13-39
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:43:13-57
+activity#com.alburaq.simled.GoDownView
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:48:10-52:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:51:13-48
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:50:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:49:13-57
+activity#com.alburaq.simled.MainActivity
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:54:11-58:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:57:13-45
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:55:13-59
+activity#com.alburaq.simled.Bill
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:60:12-64:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:63:13-46
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:61:13-51
+activity#com.alburaq.simled.UpdatePayment
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:66:9-70:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:69:13-47
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:68:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:67:13-60
+activity#com.alburaq.simled.ShowPayList
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:72:9-76:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:75:13-45
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:74:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:73:13-58
+activity#com.alburaq.simled.UpdateRate
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:78:9-82:20
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:81:13-49
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:79:13-57
+activity#com.alburaq.simled.SalesView
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:84:11-89:20
+	android:screenOrientation
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:87:13-50
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:88:13-50
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:86:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:85:13-56
+activity#com.alburaq.simled.PendingView
+ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:91:12-96:20
+	android:screenOrientation
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:94:13-50
+	android:label
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:95:13-49
+	android:theme
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:93:13-44
+	android:name
+		ADDED from /media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/src/main/AndroidManifest.xml:92:13-58

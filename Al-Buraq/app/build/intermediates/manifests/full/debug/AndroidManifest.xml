@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alburaq.simled"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic"
+        android:label="Insta-Pay"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.alburaq.simled.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.Panel"
+            android:label="Insta-Pay"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.Party"
+            android:label="@string/sales_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.UpdatePass"
+            android:label="Update Password"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.Admin_ctrl"
+            android:label="Admin_Ctrl"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.GoDownView"
+            android:label="@string/stkdet_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.MainActivity"
+            android:label="@string/stk_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.Bill"
+            android:label="@string/bill_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.UpdatePayment"
+            android:label="@string/uppmt_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.ShowPayList"
+            android:label="@string/spl_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.UpdateRate"
+            android:label="@string/upprice_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.SalesView"
+            android:label="@string/salesdet_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.alburaq.simled.PendingView"
+            android:label="@string/penddet_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

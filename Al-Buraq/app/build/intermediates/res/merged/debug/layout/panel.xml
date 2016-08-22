@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/instapay"/>
+    </LinearLayout>
+
+ <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="20dp" >
+    <Button
+        android:id="@+id/btn_stk_entry"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:width="135dp"
+        android:text="@string/btn_stk_lbl"
+         android:background="@drawable/redbtn"
+        style="@style/btn_style"
+         />
+
+    <Button
+        android:id="@+id/btn_sls_entry"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:width="135dp"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_sls_lbl" />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+  >
+    <Button
+        android:id="@+id/btn_stk_details"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+          android:width="135dp"
+          android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_stk_det_lbl" />
+
+    <Button
+        android:id="@+id/btn_sls_details"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+          android:width="135dp"
+          android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_sls_det_lbl" />
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+  >
+    <Button
+        android:id="@+id/btn_go_det"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+          android:width="135dp"
+          android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_go_det_lbl" />
+
+    <Button
+        android:id="@+id/btn_pen_det"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+          android:width="135dp"
+          android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_pen_det_lbl" />
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+  >
+    <Button
+        android:id="@+id/btn_update_pay"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+          android:width="135dp"
+          android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_update_pay_lbl" />
+
+    <Button
+        android:id="@+id/btn_show_pmt"
+        android:background="@drawable/redbtn"
+        android:layout_width="wrap_content"
+          android:width="135dp"
+          android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        style="@style/btn_style"
+        android:text="@string/btn_show_pay_lbl" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <Button
+            android:id="@+id/btn_apnl"
+            android:background="@drawable/redbtn"
+            android:layout_width="wrap_content"
+            android:width="135dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            style="@style/btn_style"
+            android:text="Admin ctrl" />
+        </LinearLayout>
+
+    
+</LinearLayout>
+</ScrollView>

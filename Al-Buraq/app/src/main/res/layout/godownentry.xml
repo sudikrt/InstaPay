@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/date" />
+
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.38"
+            android:background="@drawable/txtrect"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="none"
+            android:width="150dp" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="11dp"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="76dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="10dp"
+    android:text="@string/item_type" />
+
+<RadioGroup 
+    android:id="@+id/rgrp"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radio_chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chicken" />
+
+    <RadioButton
+        android:id="@+id/radio_sheep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sheep" />
+</RadioGroup>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/noofbags" />
+
+    <EditText
+        android:id="@+id/et_no_of_bags"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="10dp"
+         android:background="@drawable/txtrect"
+        android:layout_weight="0.11"
+        android:ems="10"
+        android:inputType="number" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/btn_save"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:background="@drawable/redbtn"
+        style="@style/btn_style"
+    android:text="@string/save" />
+
+</LinearLayout>
+</ScrollView>

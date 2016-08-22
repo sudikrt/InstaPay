@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/edt_show_pay_inp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/txtrect"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/hint_edt"
+        android:inputType="number" >
+        <requestFocus />
+    </EditText>
+    <Button
+        android:id="@+id/btn_show_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:background="@drawable/redbtn"
+        style="@style/btn_style"
+        android:text="@string/btn_id_ok_lbl" />
+	<TextView
+        android:id="@+id/tv_show_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bill" />
+	
+	 <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" >
+        <TableLayout
+            android:id="@+id/tbl_show_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </TableLayout>
+    </HorizontalScrollView>
+  	</LinearLayout>
+</ScrollView>  
+

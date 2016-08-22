@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/geekyint/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_d70a85260597aa4f0be912b2c6a70142a00bc4b1.jar" />
+    </item>
+    <item
+        jar="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_277c03a2d5ec92c28dbd9ee0e846a3561be86824.jar" />
+    </item>
+    <item
+        jar="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_21d14653837207217b28f85e91f3afa5fc35b9b8.jar" />
+    </item>
+    <item
+        jar="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/libs/jxl.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/pre-dexed/debug/jxl_76fa66364c893c38ebd9d25dbdc0ee85587b5bc9.jar" />
+    </item>
+    <item
+        jar="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/media/geekyint/My Drive/From Fedora/AndroidStudioProjects/Al-Buraq/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_3e98242433ff64f5273d0c98bfbec2f07a62afba.jar" />
+    </item>
+
+</items>

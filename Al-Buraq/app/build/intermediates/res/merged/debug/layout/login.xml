@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Username"
+        android:id="@+id/logUname"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/logPass"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:password="true"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/logbtn"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edt_id_inp"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/txtrect"
+        android:ems="20"
+        android:gravity="center"
+        android:hint="@string/hint_edt"
+        android:inputType="number" >
+        <requestFocus />
+        </EditText>
+
+    <Button
+        android:id="@+id/btn_id_ok"
+        style="@style/btn_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:background="@drawable/redbtn"
+        android:text="@string/btn_id_ok_lbl" />
+
+    <TextView
+        android:id="@+id/tv_disp_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/bill" />
+
+    <EditText
+        android:id="@+id/edt_amt_inp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/txtrect"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/hint_amt"
+        android:inputType="number" >
+
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_amt_ok"
+        style="@style/btn_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:background="@drawable/redbtn"
+        android:text="@string/btn_amt_ok_lbl" />
+
+</LinearLayout>
+</ScrollView>
